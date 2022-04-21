@@ -1,0 +1,15 @@
+.page-wrap {
+    display: flex;
+    justify-content: space-around;
+}
+.page-wrap .controls input {
+    display: block;
+}
+.page-wrap .controls label {
+    margin-bottom: 15px;
+    display: block;
+}
+
+#canvas-wrap canvas {
+    border: 1px solid #000;
+}

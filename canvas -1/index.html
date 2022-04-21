@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <script src="js/fabric-min.js"></script>
+    <title>Canvas</title>
+</head>
+<body>
+<div class="page-wrap">
+    <form class="controls">
+      <label for="colorpicker">Color Picker:</label>
+      <input type="color" id="colorpicker" value="#2bc4aa"><br><br>
+
+      <label for="top-image">Add Top Image</label>
+      <input type="url" id="top_image" name="top_image" value="https://lh3.googleusercontent.com/_--Lt6wqpkQG9YuOI8Wo-qaBFVfbm__BiWidjE87NuQcwd173dDgb2VMnTyzNoAdN19jxF5z5gsOkQNVID8v3_y9iQNgICCMdkMUZpa7revATPjx52FpGm_uhQwExU2DHOJmSApF6Le5d1u88Km_mTtdXwjEjEozbvRe1G79k20m62lGEHUG2xpL2acE7HJK1QGu2Dlld8fbsDPQnIRA_haiQOJp_19hEC7JeBsbR6mzKu-khn0Ss6dH4_kvD4rfgfeDjn1GNkUPHSQ8pEvu1XwBDWrT8FdgRdHE2EiAtbP242CZ-FMa4lRhalJ7_daOKoAVr3KuwUrZOy6nwFJn2uyY46swVUfRyrxb4ZizV0dBmn8uz304kiMHJMvnJiR9JYL-DUZ19AmV_SBdtNo_iiQ5rtl6KjMMnOPApZsCkx0lKA-UmQyP2OWADnRhQk9O3YXqXG75hnyRGoGTmh0w0oyG41R-pyqrmEt419cvORb6S669HXnT03emFTWXh-CvjQAmTxtug6QlEIvL1QkG1HMVdGDb_E9NJ0H9tyVcGrEnib_LBHvlzXac7baeEbC4vsLnNeDBkd7uyicocRmkYFVedB-PE_hadOaE42JnV6koXwxM7TM7xU_v97SHI-CMLPcm_J1VIJoTFz64iRCcizMgDrZUN6fpnqW9vg6OXDylu3id5fgKKPD8ej4xcAvZnWWA5fGEDimVPrd94bbYggRZ--w1rFtRO3kniW_18f5YWa17Mb7Ua7CBITMq=w85-h82-no?authuser=0"><br><br>
+
+      <label for="bottom-image">Add Bottom Image</label>
+      <input type="url" id="bottom_image" name="bottom_image" value="https://lh3.googleusercontent.com/pwwyobTC-063XUfmFrGnaXhn_kbILEgKx3U0YcDmy4qshtMiwKrhpMGQ0ZMinNennOfI-cZvK5vu7cJVeFb4v017VD-7aJKEuzEgKTngzeY4fVGzuxxBDwTwW1PeNXH0FbVfJxwMm8cVUTb7m40KN2jmCbNvnheJwzlAQ4M5wEx09NVN1QgBshnQSx6Hl9EzhgA0GLKhQDIKWmMcQEBZ-5ZjYR2ViYH5Se-F_DO-brLiuakqe4wGsc3JHgenuvE5RV4g44L3LWlTM4dPUD3JTitxqguf4_xWLjl2LFob3W5y0nL5clWneYDxxW41hEDMc4P5ne3ycfFmhwG7f2R9AxTHlZBWHeMxtwTJIaIDoA4lhAn1rYedo-EMpaKQsP4qg-lR0kFu0d3bE2nMe20l0zzMTpPrFfkY-3fUfNfbzIz-tWUvOmPOoHUNDpi3dabyo28HgbDGWLJ88DzH6MFrgq5Tm3hJswvJqD-MJklohLa_VJMznYhCqHAdzSfLK1DJ19db4850RZ9vo2auzvB3US6m73ogxnH1zXQG2BhhIYHqI9-BZ4pNb4gaTvVIy-oDP_TOw-T6icuS-SJ1MqNP2on17bK4N_B94UyjuXa-tZJW9W3EE3-V8oInJqfUu6lbyLEZBvihwC3LgI3IOiusAPaIGT--BdYxa3DbXKmfQ4aMVEmadFp7dFPNX5dKowyaCftuFP-GigaKr25xUqoPwvSKddGF9RYlKHWnjb_nsApZ2Boc-oHV6LAvxASh=w85-h82-no?authuser=0"><br><br>
+      
+      <label for="logo-image">Add Logo Image</label>
+      <input type="url" id="logo_image" name="logo_image" value="https://img.icons8.com/cute-clipart/64/000000/instagram-new.png"><br>
+    </form>
+
+    <div id="canvas-wrap">
+        <canvas style="display:block" id="Canvas" width=600px height=600px>
+        </canvas>
+    </div>
+</div>
+
+
+
+
+
+
+
+<script src="js/script.js"></script>
+
+    
+</body>
+</html>
